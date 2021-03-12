@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header ,main ,footer{
+    position:-webkit-sticky;
+    width: 100%; 
+    margin-bottom: 20px;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.568);
+}
+
+header section{
+    width: 960px;
+    height: 90px;
+    margin-left: 17.5%;
+}
+
+header section nav img{
+    width: 200px;
+    height: 70px;
+    padding-top: 9px;
+    float: left;
+}
+header section nav ul{
+    width: 760px;
+    height:70px ;
+    float: right;
+   -moz-box-align: center;
+}
+header section nav ul li{
+    display: inline-block;
+    padding: 35px;
+    padding-left: 60px;
+    color: white;
+}
+/*--------------------------------------------------------------------*/
+
+main div{
+    width: 960px;
+    height: auto;
+    margin-left: 17.5%;
+}
+
+main div article:first-child img{
+    width: 960px;
+    height: 450px;
+    margin-top: 30px ;
+}
+
+main div article:nth-child(2) {
+    width: 960px;
+    height: 375px;
+    margin: 30px 0 30px 0;
+}
+
+main div article:nth-child(2) section{
+    display: inline-block;
+    width: 300px;
+    height: 375px;
+}
+main div article:nth-child(2) section:nth-child(2) {
+    margin:0 26.5px 0 26.5px;
+    display: inline-block;
+    width: 300px;
+    height: 375px;
+} 
+main div article:nth-child(2) section:last-child {
+    display: inline-block;
+    width: 300px;
+    height: 375px;
+    
+}
+
+main div article:last-child section:first-child{
+    display: inline-block;
+    width: 480px;
+    height: 400px;
+}
+main div article:last-child section:last-child{
+    width: 480px;
+    height: 400px;
+    float: right;
+    position: relative;
+    overflow: hidden;
+}
+main div article:last-child section:last-child h2{
+    font-size: large;
+    padding-left: 20px;
+}
+main div article:last-child section:last-child p{
+    padding:0 20px 0 20px;
+    height:345px;
+    position: absolute;
+    left: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+main div article:last-child section:last-child p::-webkit-scrollbar {
+display: none;
+}
+button{
+    background-color: black;
+    color: white;
+    width: 120px;
+    height: 30px;
+    margin-left: 20px;
+    transform: translateY(349px);
+}
+/*-------------------------------------------------------------------------*/
+
+footer{
+    background-color: rgba(0, 0, 0, 0.568);
+    height: 100px;
+}
