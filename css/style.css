@@ -1,48 +1,67 @@
 *{
     margin: 0;
     padding: 0;
+    
+}
+span{
+    clear: both;
+}
+header ,main ,footer{
+    margin-bottom: 20px;
 }
 
-header ,main ,footer{
-    position:-webkit-sticky;
-    width: 100%; 
-    margin-bottom: 20px;
+footer {
+   margin-bottom: 0px; 
 }
 
 header{
     background-color: rgba(0, 0, 0, 0.568);
 }
 
+
 header section{
     width: 960px;
-    height: 90px;
-    margin-left: 17.5%;
+    height: 70px;
+    margin: auto;
+    padding: 30px 0;
+    overflow: hidden;
 }
 
 header section nav img{
     width: 200px;
     height: 70px;
-    padding-top: 9px;
     float: left;
+ 
 }
-header section nav ul{
-    width: 760px;
-    height:70px ;
-    float: right;
-   -moz-box-align: center;
-}
+
 header section nav ul li{
-    display: inline-block;
-    padding: 35px;
-    padding-left: 60px;
+    padding: 35px 0px;
     color: white;
 }
+
+
+header section nav ul li {
+padding: 35px 0px;
+color: white;
+float: left;
+width: 190px;
+height:70px ;
+text-align: center;
+}
+
+
+
+
 /*--------------------------------------------------------------------*/
 
 main div{
     width: 960px;
-    height: auto;
-    margin-left: 17.5%;
+}
+
+
+main div{
+width: 960px;
+margin: auto;
 }
 
 main div article:first-child img{
@@ -57,22 +76,20 @@ main div article:nth-child(2) {
     margin: 30px 0 30px 0;
 }
 
-main div article:nth-child(2) section{
-    display: inline-block;
-    width: 300px;
-    height: 375px;
+main div article:nth-child(2) {
+overflow: hidden;
+
 }
-main div article:nth-child(2) section:nth-child(2) {
-    margin:0 26.5px 0 26.5px;
-    display: inline-block;
+
+main div article:nth-child(2) img{
     width: 300px;
     height: 375px;
-} 
-main div article:nth-child(2) section:last-child {
-    display: inline-block;
-    width: 300px;
-    height: 375px;
-    
+    display: block;
+    float: left;
+    margin-right: 30px;
+}
+main div article:nth-child(2) :nth-child(3){
+    margin-right: 0px;
 }
 
 main div article:last-child section:first-child{
@@ -108,7 +125,11 @@ button{
     width: 120px;
     height: 30px;
     margin-left: 20px;
-    margin-top: 340px;
+    transform: translateY(349px);
+}
+button:hover{
+    background-color: rgb(114, 107, 107);
+    transition-duration: 350ms;
 }
 /*-------------------------------------------------------------------------*/
 
